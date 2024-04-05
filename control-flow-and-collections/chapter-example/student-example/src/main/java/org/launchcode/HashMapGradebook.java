@@ -30,6 +30,7 @@ public class HashMapGradebook {
         } while(!newStudent.equals(""));
 
         // Print class roster
+
         System.out.println("\nClass roster:");
         double sum = 0.0;
 
