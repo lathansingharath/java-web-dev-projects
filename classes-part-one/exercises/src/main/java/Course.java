@@ -12,4 +12,11 @@ public class Course {
         this.students = students;
     }
 
+
+    public ArrayList<Student> getStudents() {
+        return students;
+    }
+    public String getCourseName(){
+        return courseName;
+    }
 }

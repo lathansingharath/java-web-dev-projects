@@ -28,5 +28,39 @@ public class MenuItem {
     public void setNew(boolean aNew) {
         isNew = aNew;
     }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public boolean isNew() {
+        return isNew;
+    }
+
+    //The block of code below is for testing
+    public String toString(){
+        String yesNo;
+        if (isNew){
+            yesNo = "yes";
+
+        } else {
+            yesNo = "no";
+        }
+        return description +  "\n" +
+                "Price: $" + price + "\n"+
+                "Category: " + category + "\n" +
+                "New? " + yesNo + "\n";
+    }
+    /////
 }
+
+
 

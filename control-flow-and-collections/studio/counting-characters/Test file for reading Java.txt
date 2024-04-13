@@ -1,0 +1,1 @@
+My name is Lathan. My girlfriend's name is Allison. My son's name is Lance. My dog's name is Srappyy. This file is a test for a Java program I am working on to see if it can read a file.
